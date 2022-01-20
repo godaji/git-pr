@@ -1,3 +1,5 @@
-def sum(a, b):
-    return a + b
-
+def sum(items):
+    value = 0
+    for item in items:
+        value += item
+    return value
